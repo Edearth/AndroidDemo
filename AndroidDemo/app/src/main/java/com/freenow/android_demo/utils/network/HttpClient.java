@@ -2,22 +2,21 @@ package com.freenow.android_demo.utils.network;
 
 import android.annotation.TargetApi;
 import android.os.Build;
+import android.support.annotation.VisibleForTesting;
 import android.util.Log;
-
+import com.freenow.android_demo.models.Driver;
+import com.freenow.android_demo.models.User;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.freenow.android_demo.models.Driver;
-import com.freenow.android_demo.models.User;
-
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
+import net.rafaeltoledo.okir.OkHttp3IdlingResource;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
@@ -32,10 +31,13 @@ public class HttpClient {
 
     private static final String RANDOM_USER_URL = "https://randomuser.me/api/";
     private final OkHttpClient mClient;
+    private final OkHttp3IdlingResource idlingResource;
     private final JsonParser mJsonParser;
 
     public HttpClient() {
-        mClient = new OkHttpClient.Builder().readTimeout(SOCKET_TIMEOUT, TimeUnit.SECONDS).build();
+        idlingResource = new OkHttp3IdlingResource();
+        mClient = new OkHttpClient.Builder().readTimeout(SOCKET_TIMEOUT, TimeUnit.SECONDS)
+            .addInterceptor(idlingResource).build();
         mJsonParser = new JsonParser();
     }
 
@@ -101,8 +103,8 @@ public class HttpClient {
             JsonObject picture = jsonUser.getAsJsonObject("picture");
             String avatar = picture.get("large").getAsString();
             JsonObject location = jsonUser.getAsJsonObject("location");
-            JsonObject street = jsonUser.getAsJsonObject("street");
-            String streetName = location.get("name").getAsString();
+            JsonObject street = location.getAsJsonObject("street");
+            String streetName = street.get("name").getAsString();
             JsonObject registered = jsonUser.getAsJsonObject("registered");
             String date = registered.get("date").getAsString();
             Date registeredDate;
@@ -147,6 +149,11 @@ public class HttpClient {
             mUser = user;
         }
 
+    }
+
+    @VisibleForTesting
+    public OkHttp3IdlingResource getHttpIdlingResource() {
+        return idlingResource;
     }
 
 }
