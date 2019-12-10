@@ -5,8 +5,7 @@ import android.support.test.runner.AndroidJUnit4
 import com.freenow.android_demo.activities.MainActivity
 import com.freenow.android_demo.pages.AuthPage
 import com.freenow.android_demo.pages.MainPage
-import com.freenow.android_demo.utils.Responses
-import com.squareup.okhttp.mockwebserver.MockResponse
+import com.freenow.android_demo.utils.CustomDispatcher
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -20,68 +19,62 @@ class LoginTest : BaseTest() {
 
     @Before
     fun setUpHttpResponses() {
-        mockWebServer.enqueue(MockResponse().setResponseCode(200).setBody(Responses.DRIVER_LIST))
-        mockWebServer.enqueue(MockResponse().setResponseCode(200).setBody(Responses.VALID_USER))
+        mockWebServer.setDispatcher(CustomDispatcher())
+    }
+
+    private fun test() {
+        AuthPage.login("crazydog335", "venture")
+        MainPage.at()
     }
 
     @Test
     fun login0() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login1() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login2() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login3() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login4() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login5() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login6() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login7() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login8() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
     @Test
     fun login9() {
-        AuthPage.login("crazydog335", "venture")
-        MainPage.at()
+        test()
     }
 
 }

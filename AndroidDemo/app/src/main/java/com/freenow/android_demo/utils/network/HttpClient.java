@@ -29,7 +29,7 @@ import static com.freenow.android_demo.misc.Constants.SOCKET_TIMEOUT;
 
 public class HttpClient {
 
-    private static final String RANDOM_USER_URL = "https://randomuser.me/api/";
+    private static final String BASE_URL = "http://localhost:8080/"; //"https://randomuser.me/api/";
     private final OkHttpClient mClient;
     private final OkHttp3IdlingResource idlingResource;
     private final JsonParser mJsonParser;
@@ -42,9 +42,10 @@ public class HttpClient {
     }
 
     public void fetchDrivers(final DriverCallback driverCallback) {
+        Log.d("Test", "Fetching drivers");
         int amount = 256;
         String seed = "23f8827e04239990";
-        String url = RANDOM_USER_URL + "?results=" + amount + "&seed=" + seed;
+        String url = BASE_URL + "?results=" + amount + "&seed=" + seed;
         Request request = new Request.Builder().url(url).build();
         mClient.newCall(request).enqueue(new Callback() {
             @Override
@@ -67,7 +68,8 @@ public class HttpClient {
     }
 
     public void fetchUser(String seed, final UserCallback userCallback) {
-        String url = RANDOM_USER_URL + "?seed=" + seed;
+        Log.d("Test", "Fetching user");
+        String url = BASE_URL + "?seed=" + seed;
         Request request = new Request.Builder().url(url).build();
         mClient.newCall(request).enqueue(new Callback() {
             @Override

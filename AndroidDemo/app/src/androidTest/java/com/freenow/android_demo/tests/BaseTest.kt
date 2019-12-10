@@ -37,6 +37,7 @@ abstract class BaseTest {
     @Before
     fun startMockWebServer() {
         Espresso.registerIdlingResources(httpClient.httpIdlingResource)
+        mockWebServer.play(8080)
     }
 
     @After
