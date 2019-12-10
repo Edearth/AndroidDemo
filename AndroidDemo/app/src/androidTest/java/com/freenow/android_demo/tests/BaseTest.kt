@@ -42,8 +42,8 @@ abstract class BaseTest {
 
     @After
     fun stopMockWebServer() {
-        Espresso.unregisterIdlingResources(httpClient.httpIdlingResource)
         mockWebServer.shutdown()
+        Espresso.unregisterIdlingResources(httpClient.httpIdlingResource)
     }
 
 }

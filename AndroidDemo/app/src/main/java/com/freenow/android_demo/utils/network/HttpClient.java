@@ -29,7 +29,7 @@ import static com.freenow.android_demo.misc.Constants.SOCKET_TIMEOUT;
 
 public class HttpClient {
 
-    private static final String BASE_URL = "http://localhost:8080/"; //"https://randomuser.me/api/";
+    private static final String BASE_URL = "http://localhost:8080/"; //"https://randomuser.me/api/"
     private final OkHttpClient mClient;
     private final OkHttp3IdlingResource idlingResource;
     private final JsonParser mJsonParser;
