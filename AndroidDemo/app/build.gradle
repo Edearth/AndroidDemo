@@ -5,8 +5,6 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: "com.banno.gordon" //test runner
 
-//import com.banno.gordon.PoolingStrategy
-
 android {
     compileSdkVersion 27
     defaultConfig {
