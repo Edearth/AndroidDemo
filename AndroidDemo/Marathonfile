@@ -1,0 +1,17 @@
+name: "sample-app tests"
+outputDir: "./marathon"
+poolingStrategy:
+- type: "omni"
+shardingStrategy:
+  type: "count"
+  count: 4
+retryStrategy:
+  type: "fixed-quota"
+  totalAllowedRetryQuota: 100
+  retryPerTestQuota: 2
+uncompletedTestRetryQuota: 100
+ignoreFailures: false
+isCodeCoverageEnabled: false
+testOutputTimeoutMillis: 60000
+strictMode: false
+debug: false
