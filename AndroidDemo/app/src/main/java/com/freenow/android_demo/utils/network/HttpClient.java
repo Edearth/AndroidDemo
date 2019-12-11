@@ -29,7 +29,12 @@ import static com.freenow.android_demo.misc.Constants.SOCKET_TIMEOUT;
 
 public class HttpClient {
 
-    private static final String BASE_URL = "http://localhost:8080/"; //"https://randomuser.me/api/"
+    /**
+     * This project is not supposed to be run without the MockWebServer, so we don't need to add
+     * any logic to switch to it only when testing. For reference, the original url was:
+     * "https://randomuser.me/api/"
+     */
+    private static final String BASE_URL = "http://localhost:8080/";
     private final OkHttpClient mClient;
     private final OkHttp3IdlingResource idlingResource;
     private final JsonParser mJsonParser;
