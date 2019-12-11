@@ -1,0 +1,242 @@
+<html>
+  <head>
+    <style>body {
+    --primaryAppColor: #3aaeda;
+    --dangerAppColor: #f44336;
+    --warningAppColor: #ffaa71;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    color: #6b757b;
+    background-color: #eef1f4;
+    margin: 0;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body > header {
+    background-color: var(--primaryAppColor);
+    margin-bottom: 16px;
+}
+
+.tab button {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 62px;
+    color: rgba(255,255,255,0.7);
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    padding: 3px 32px;
+}
+
+.tab button:hover,
+.tab button.active {
+    color: #ffffff;
+}
+
+.tab button.active {
+    font-weight: 600;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0 24px 24px;
+}
+
+h1 {
+    color: #455564;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.tabcontent > div {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.24),0 1px 4px rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+
+.outputsection {
+    margin-bottom: 32px;
+}
+
+.listedoutputsection article p {
+    margin-top: 0;
+}
+
+div > header {
+    font-size: 20px;
+    color: #455564;
+    padding: 24px 24px 16px 0;
+    margin-left: 24px;
+    line-height: 21px;
+    border-bottom: 1px solid #e4e7ea;
+}
+
+div > article {
+    padding: 16px 24px;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid transparent;
+}
+
+.collapsible {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px;
+    border-bottom-color: #ffffff;
+}
+
+.failure {
+    background-color: var(--dangerAppColor);
+}
+
+.flaky {
+    background-color: var(--warningAppColor);
+}
+
+.collapsible::after {
+    content: '+';
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 8px 0 auto;
+}
+
+.collapsible.active::after {
+    content: '-';
+}
+
+.collapsible:hover {
+    background-color: #ffffff;
+}
+
+.failure:hover {
+    color: var(--dangerAppColor);
+    border: 1px solid var(--dangerAppColor);
+}
+
+.flaky:hover {
+    color: var(--warningAppColor);
+    border: 1px solid var(--warningAppColor);
+}
+
+.failure:hover::after {
+    color: var(--dangerAppColor);
+}
+
+.flaky:hover::after {
+    color: var(--warningAppColor);
+}
+
+.content {
+    padding: 0 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+}</style>
+    <script type="text/javascript">function switchTab(evt, poolName) {
+    var i, tabcontent, tablinks;
+    
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    
+    document.getElementById(poolName).style.display = "block";
+    evt.currentTarget.className += " active";
+}</script>
+  </head>
+  <body>
+    <header>
+      <div class="tab"><button class="tablinks" id="defaultOpen" onclick="switchTab(event, 'All-Devices')">All-Devices</button></div>
+    </header>
+    <div class="tabcontent" id="All-Devices">
+      <h1>All-Devices Test Results</h1>
+<br>
+      <div class="outputsection">
+        <header>Failed</header>
+        <article><button class="failure collapsible">com.freenow.android_demo.tests.LoginTest.loginFailing0</button>
+          <div class="content"><br><br>
+            <p>Failure 1</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing0(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing0(LoginTest.kt:78)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.554<br><br></p>
+<br><br>
+            <p>Failure 2</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing0(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing0(LoginTest.kt:78)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.585<br><br></p>
+<br><br>
+            <p>Failure 3</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing0(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing0(LoginTest.kt:78)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.278<br><br></p>
+          </div>
+<button class="failure collapsible">com.freenow.android_demo.tests.LoginTest.loginFailing1</button>
+          <div class="content"><br><br>
+            <p>Failure 1</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing1(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing1(LoginTest.kt:84)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.592<br><br></p>
+<br><br>
+            <p>Failure 2</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing1(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing1(LoginTest.kt:84)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.635<br><br></p>
+<br><br>
+            <p>Failure 3</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFailing1(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:645)<br>	at org.junit.Assert.assertEquals(Assert.java:631)<br>	at com.freenow.android_demo.tests.LoginTest.loginFailing1(LoginTest.kt:84)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.286<br><br></p>
+          </div>
+        </article>
+      </div>
+      <div class="outputsection">
+        <header>Flaky (Failed and then Passed)</header>
+        <article><button class="flaky collapsible">com.freenow.android_demo.tests.LoginTest.loginFlaky3</button>
+          <div class="content"><br><br>
+            <p>Failure 1</p>
+            <p>com.freenow.android_demo.tests.LoginTest:<br>Error in loginFlaky3(com.freenow.android_demo.tests.LoginTest):<br>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;<br>	at org.junit.Assert.fail(Assert.java:88)<br>	at org.junit.Assert.failNotEquals(Assert.java:834)<br>	at org.junit.Assert.assertEquals(Assert.java:118)<br>	at org.junit.Assert.assertEquals(Assert.java:144)<br>	at com.freenow.android_demo.tests.LoginTest.loginFlaky3(LoginTest.kt:72)<br>	at java.lang.reflect.Method.invoke(Native Method)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)<br>	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)<br>	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)<br>	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)<br>	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)<br>	at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)<br>	at org.junit.runners.Suite.runChild(Suite.java:128)<br>	at org.junit.runners.Suite.runChild(Suite.java:27)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br>	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)<br>	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)<br></p>
+            <p><br>Time: 1.742<br><br></p>
+          </div>
+        </article>
+      </div>
+      <div class="outputsection listedoutputsection">
+        <header>Passed</header>
+        <article>
+          <p>com.freenow.android_demo.tests.LoginTest.login0<br>com.freenow.android_demo.tests.LoginTest.login1<br>com.freenow.android_demo.tests.LoginTest.login2<br>com.freenow.android_demo.tests.LoginTest.login3<br>com.freenow.android_demo.tests.LoginTest.loginFlaky0<br>com.freenow.android_demo.tests.LoginTest.loginFlaky1<br>com.freenow.android_demo.tests.LoginTest.loginFlaky2<br></p>
+        </article>
+      </div>
+    </div>
+    <script type="text/javascript">var coll = document.getElementsByClassName("collapsible");
+var i;
+    
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}</script>
+    <script type="text/javascript">document.getElementById("defaultOpen").click();</script>
+  </body>
+</html>

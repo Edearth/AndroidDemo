@@ -11,6 +11,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.Assert.*
+import kotlin.random.Random
 
 @RunWith(AndroidJUnit4::class)
 class LoginTest : BaseTest() {
@@ -49,32 +50,38 @@ class LoginTest : BaseTest() {
     }
 
     @Test
-    fun login4() {
+    fun loginFlaky0() {
+        assertEquals(1, Random.nextInt(0,2))
         test()
     }
 
     @Test
-    fun login5() {
+    fun loginFlaky1() {
+        assertEquals(1, Random.nextInt(0,2))
         test()
     }
 
     @Test
-    fun login6() {
+    fun loginFlaky2() {
+        assertEquals(1, Random.nextInt(0,2))
         test()
     }
 
     @Test
-    fun login7() {
+    fun loginFlaky3() {
+        assertEquals(1, Random.nextInt(0,2))
         test()
     }
 
     @Test
-    fun login8() {
+    fun loginFailing0() {
+        assertEquals(1, 2)
         test()
     }
 
     @Test
-    fun login9() {
+    fun loginFailing1() {
+        assertEquals(1, 2)
         test()
     }
 
