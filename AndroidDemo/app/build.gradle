@@ -3,9 +3,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-apply plugin: "com.banno.gordon" //test runner
-
-//import com.banno.gordon.PoolingStrategy
 
 android {
     compileSdkVersion 27
@@ -56,11 +53,4 @@ dependencies {
     implementation 'net.rafaeltoledo.okir:library:0.0.1@aar'
     androidTestImplementation 'com.squareup.okhttp:mockwebserver:1.2.1'
 
-}
-
-gordon {
-    //poolingStrategy.set(PoolingStrategy.AllDevices)
-    retryQuota.set(2)
-    //testTimeoutMillis.set(1_000L)
-    //testFilter.set("ExampleTest.runThisMethod,RunThisWholeTestClass,com.example.runthispackage")
 }
