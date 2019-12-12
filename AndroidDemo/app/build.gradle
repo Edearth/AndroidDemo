@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.jaredsburrows.spoon'
 
 android {
     compileSdkVersion 27
@@ -53,4 +54,11 @@ dependencies {
     implementation 'net.rafaeltoledo.okir:library:0.0.1@aar'
     androidTestImplementation 'com.squareup.okhttp:mockwebserver:1.2.1'
 
+    androidTestImplementation 'com.squareup.spoon:spoon-client:1.7.1' // the 2.0.0-SNAPSHOT on the gradle plugin repo doesn't exist anymore in Sonatype!
+}
+
+spoon {
+    shard = true
+    numShards = 2
+    singleInstrumentationCall = true
 }
