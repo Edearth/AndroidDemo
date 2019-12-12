@@ -1,0 +1,267 @@
+12-12 12:16:08.036 info TestRunner started: loginFlaky2(com.freenow.android_demo.tests.LoginTest)
+12-12 12:16:08.039 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
+12-12 12:16:08.041 info GrantPermissionCallable Permission: android.permission.ACCESS_FINE_LOCATION is already granted!
+12-12 12:16:08.046 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+12-12 12:16:08.080 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: PRE_ON_CREATE
+12-12 12:16:08.179 info zzbz Making Creator dynamically
+12-12 12:16:08.197 warn zygote Skipping duplicate class check due to unrecognized classloader
+12-12 12:16:08.202 info DynamiteModule Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:221
+12-12 12:16:08.202 info DynamiteModule Selected remote version of com.google.android.gms.maps_dynamite, version >= 221
+12-12 12:16:08.239 warn zygote Skipping duplicate class check due to unrecognized classloader
+12-12 12:16:08.271 info Google Maps Android API Google Play services client version: 12451000
+12-12 12:16:08.280 info Google Maps Android API Google Play services package version: 16089022
+12-12 12:16:08.476 info zygote Do partial code cache collection, code=29KB, data=22KB
+12-12 12:16:08.480 info zygote After code cache collection, code=29KB, data=22KB
+12-12 12:16:08.480 info zygote Increasing code cache capacity to 128KB
+12-12 12:16:08.650 info zygote Rejecting re-init on previously-failed class java.lang.Class<okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/conscrypt/ConscryptHostnameVerifier;
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 12:16:08.650 info zygote   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 12:16:08.650 info zygote   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 12:16:08.650 info zygote   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 12:16:08.650 info zygote   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 12:16:08.650 info zygote   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 12:16:08.650 info zygote   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 12:16:08.650 info zygote   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 12:16:08.650 info zygote   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 12:16:08.650 info zygote   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 12:16:08.650 info zygote   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 12:16:08.650 info zygote   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 12:16:08.650 info zygote   at void android.os.Looper.loop() (Looper.java:164)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 12:16:08.650 info zygote   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 12:16:08.650 info zygote   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 12:16:08.650 info zygote   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 12:16:08.650 info zygote Caused by: java.lang.ClassNotFoundException: Didn't find class "org.conscrypt.ConscryptHostnameVerifier" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.freenow.android_demo.test-93XF72S2fpMHiPxNP2YkuQ==/base.apk", zip file "/data/app/com.freenow.android_demo-p47R1pSI9B2ixAhsYi61Hw==/base.apk"],nativeLibraryDirectories=[/data/app/com.freenow.android_demo.test-93XF72S2fpMHiPxNP2YkuQ==/lib/x86, /data/app/com.freenow.android_demo-p47R1pSI9B2ixAhsYi61Hw==/lib/x86, /system/lib, /vendor/lib]]
+12-12 12:16:08.650 info zygote   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+12-12 12:16:08.650 info zygote   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+12-12 12:16:08.650 info zygote   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 12:16:08.650 info zygote   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 12:16:08.650 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 12:16:08.650 info zygote   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 12:16:08.650 info zygote   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 12:16:08.650 info zygote   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 12:16:08.650 info zygote   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 12:16:08.650 info zygote   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 12:16:08.650 info zygote   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 12:16:08.650 info zygote   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 12:16:08.650 info zygote   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 12:16:08.650 info zygote   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 12:16:08.650 info zygote   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 12:16:08.650 info zygote   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 12:16:08.650 info zygote   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 12:16:08.650 info zygote   at void android.os.Looper.loop() (Looper.java:164)
+12-12 12:16:08.650 info zygote   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 12:16:08.650 info zygote   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 12:16:08.650 info zygote   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 12:16:08.650 info zygote   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 12:16:08.651 info zygote Rejecting re-init on previously-failed class java.lang.Class<okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/conscrypt/ConscryptHostnameVerifier;
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 12:16:08.651 info zygote   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 12:16:08.651 info zygote   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 12:16:08.651 info zygote   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 12:16:08.651 info zygote   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 12:16:08.651 info zygote   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 12:16:08.651 info zygote   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 12:16:08.651 info zygote   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 12:16:08.651 info zygote   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 12:16:08.651 info zygote   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 12:16:08.651 info zygote   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 12:16:08.651 info zygote   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 12:16:08.651 info zygote   at void android.os.Looper.loop() (Looper.java:164)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 12:16:08.651 info zygote   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 12:16:08.651 info zygote   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 12:16:08.651 info zygote   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 12:16:08.651 info zygote Caused by: java.lang.ClassNotFoundException: Didn't find class "org.conscrypt.ConscryptHostnameVerifier" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.freenow.android_demo.test-93XF72S2fpMHiPxNP2YkuQ==/base.apk", zip file "/data/app/com.freenow.android_demo-p47R1pSI9B2ixAhsYi61Hw==/base.apk"],nativeLibraryDirectories=[/data/app/com.freenow.android_demo.test-93XF72S2fpMHiPxNP2YkuQ==/lib/x86, /data/app/com.freenow.android_demo-p47R1pSI9B2ixAhsYi61Hw==/lib/x86, /system/lib, /vendor/lib]]
+12-12 12:16:08.651 info zygote   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+12-12 12:16:08.651 info zygote   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+12-12 12:16:08.651 info zygote   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 12:16:08.651 info zygote   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 12:16:08.651 info zygote   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 12:16:08.651 info zygote   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 12:16:08.651 info zygote   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 12:16:08.651 info zygote   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 12:16:08.651 info zygote   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 12:16:08.651 info zygote   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 12:16:08.651 info zygote   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 12:16:08.651 info zygote   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 12:16:08.651 info zygote   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 12:16:08.651 info zygote   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 12:16:08.651 info zygote   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 12:16:08.651 info zygote   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 12:16:08.651 info zygote   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 12:16:08.651 info zygote   at void android.os.Looper.loop() (Looper.java:164)
+12-12 12:16:08.651 info zygote   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 12:16:08.651 info zygote   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 12:16:08.651 info zygote   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 12:16:08.651 info zygote   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 12:16:08.662 debug NetworkSecurityConfig No Network Security Config specified, using platform default
+12-12 12:16:08.688 debug Test Fetching drivers
+12-12 12:16:08.698 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: CREATED
+12-12 12:16:08.702 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: STARTED
+12-12 12:16:08.719 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: RESUMED
+12-12 12:16:08.723 warn System.err java.net.ConnectException: Failed to connect to localhost/127.0.0.1:8080
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:270)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:176)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:236)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:109)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:77)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.Transmitter.newExchange$okhttp(Transmitter.kt:162)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:35)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:82)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 12:16:08.726 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:84)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:71)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 12:16:08.727 warn System.err 	at net.rafaeltoledo.okir.OkHttp3IdlingResource.intercept(OkHttp3IdlingResource.java:39)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 12:16:08.727 warn System.err 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 12:16:08.727 warn System.err 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.kt:184)
+12-12 12:16:08.728 warn System.err 	at okhttp3.RealCall$AsyncCall.run(RealCall.kt:136)
+12-12 12:16:08.728 warn System.err 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-12 12:16:08.728 warn System.err 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-12 12:16:08.728 warn System.err 	at java.lang.Thread.run(Thread.java:764)
+12-12 12:16:08.730 warn System.err Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 8080) from /127.0.0.1 (port 49699) after 10000ms: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 12:16:08.730 warn System.err 	at libcore.io.IoBridge.isConnected(IoBridge.java:273)
+12-12 12:16:08.730 warn System.err 	at libcore.io.IoBridge.connectErrno(IoBridge.java:188)
+12-12 12:16:08.730 warn System.err 	at libcore.io.IoBridge.connect(IoBridge.java:130)
+12-12 12:16:08.731 warn System.err 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+12-12 12:16:08.731 warn System.err 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+12-12 12:16:08.731 warn System.err 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+12-12 12:16:08.731 warn System.err 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+12-12 12:16:08.731 warn System.err 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+12-12 12:16:08.731 warn System.err 	at java.net.Socket.connect(Socket.java:616)
+12-12 12:16:08.731 warn System.err 	at okhttp3.internal.platform.AndroidPlatform.connectSocket(AndroidPlatform.kt:58)
+12-12 12:16:08.731 warn System.err 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:268)
+12-12 12:16:08.731 warn System.err 	... 24 more
+12-12 12:16:08.737 warn System.err Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 12:16:08.738 warn System.err 	at libcore.io.IoBridge.isConnected(IoBridge.java:262)
+12-12 12:16:08.738 warn System.err 	... 34 more
+12-12 12:16:08.750 debug OpenGLRenderer HWUI GL Pipeline
+12-12 12:16:08.777 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: PAUSED
+12-12 12:16:08.853 error Google Maps Android API Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+12-12 12:16:08.856 error Google Maps Android API In the Google Developer Console (https://console.developers.google.com)
+12-12 12:16:08.856 error Google Maps Android API Ensure that the "Google Maps Android API v2" is enabled.
+12-12 12:16:08.856 error Google Maps Android API Ensure that the following Android Key exists:
+12-12 12:16:08.856 error Google Maps Android API 	API Key: YOUR_KEY_HERE
+12-12 12:16:08.856 error Google Maps Android API 	Android Application (<cert_fingerprint>;<package_name>): 13:4F:1D:E7:E0:35:AB:D2:C4:2A:F3:B6:01:50:7C:4E:34:5F:5D:B1;com.freenow.android_demo
+12-12 12:16:08.876 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@1c22b60 in: PRE_ON_CREATE
+12-12 12:16:08.952 info TextInputLayout EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 12:16:08.963 info TextInputLayout EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 12:16:08.972 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@1c22b60 in: CREATED
+12-12 12:16:08.973 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@1c22b60 in: STARTED
+12-12 12:16:08.978 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@1c22b60 in: RESUMED
+12-12 12:16:09.044 info zygote Do partial code cache collection, code=56KB, data=56KB
+12-12 12:16:09.048 info zygote After code cache collection, code=56KB, data=57KB
+12-12 12:16:09.052 debug  HostConnection::get() New Host Connection established 0xa1e5dd40, tid 11313
+12-12 12:16:09.055 info zygote Increasing code cache capacity to 256KB
+12-12 12:16:09.056 info OpenGLRenderer Initialized EGL, version 1.4
+12-12 12:16:09.057 debug OpenGLRenderer Swap behavior 1
+12-12 12:16:09.057 warn OpenGLRenderer Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-12 12:16:09.057 debug OpenGLRenderer Swap behavior 0
+12-12 12:16:09.058 info zygote Do full code cache collection, code=56KB, data=75KB
+12-12 12:16:09.059 info zygote After code cache collection, code=0B, data=22KB
+12-12 12:16:09.072 debug EGL_emulation eglCreateContext: 0xa4b06320: maj 3 min 0 rcv 3
+12-12 12:16:09.092 debug EGL_emulation eglMakeCurrent: 0xa4b06320: ver 3 0 (tinfo 0xa4b03610)
+12-12 12:16:09.157 debug EGL_emulation eglMakeCurrent: 0xa4b06320: ver 3 0 (tinfo 0xa4b03610)
+12-12 12:16:09.325 warn View dispatchProvideAutofillStructure(): not laid out, ignoring
+12-12 12:16:09.330 info AssistStructure Flattened final assist data: 2428 bytes, containing 1 windows, 9 views
+12-12 12:16:09.357 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: STOPPED
+12-12 12:16:09.357 debug LifecycleMonitor running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@bef6eba
+12-12 12:16:09.357 debug LifecycleMonitor callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@bef6eba
+12-12 12:16:09.380 debug LifecycleMonitor Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: DESTROYED
+12-12 12:16:09.380 debug LifecycleMonitor running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@bef6eba
+12-12 12:16:09.380 debug LifecycleMonitor callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@bef6eba
+12-12 12:16:09.395 info TestRunner failed: loginFlaky2(com.freenow.android_demo.tests.LoginTest)
+12-12 12:16:09.395 info TestRunner ----- begin exception -----
+12-12 12:16:09.398 info TestRunner java.lang.AssertionError: expected:<1> but was:<0>
+12-12 12:16:09.398 info TestRunner 	at org.junit.Assert.fail(Assert.java:88)
+12-12 12:16:09.398 info TestRunner 	at org.junit.Assert.failNotEquals(Assert.java:834)
+12-12 12:16:09.398 info TestRunner 	at org.junit.Assert.assertEquals(Assert.java:118)
+12-12 12:16:09.398 info TestRunner 	at org.junit.Assert.assertEquals(Assert.java:144)
+12-12 12:16:09.398 info TestRunner 	at com.freenow.android_demo.tests.LoginTest.loginFlaky2(LoginTest.kt:66)
+12-12 12:16:09.398 info TestRunner 	at java.lang.reflect.Method.invoke(Native Method)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+12-12 12:16:09.398 info TestRunner 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+12-12 12:16:09.398 info TestRunner 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)
+12-12 12:16:09.398 info TestRunner 	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)
+12-12 12:16:09.398 info TestRunner 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.Suite.runChild(Suite.java:128)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.Suite.runChild(Suite.java:27)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+12-12 12:16:09.398 info TestRunner 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+12-12 12:16:09.398 info TestRunner 	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+12-12 12:16:09.398 info TestRunner 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)
+12-12 12:16:09.399 info TestRunner ----- end exception -----
+12-12 12:16:09.406 info TestRunner finished: loginFlaky2(com.freenow.android_demo.tests.LoginTest)
