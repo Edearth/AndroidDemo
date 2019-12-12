@@ -1,0 +1,436 @@
+12-12 13:15:12.452: I/TestRunner(5417): started: login1(com.freenow.android_demo.tests.LoginTest)
+12-12 13:15:12.457: I/MonitoringInstr(5417): Activities that are still in CREATED to STOPPED: 0
+12-12 13:15:12.457: I/GrantPermissionCallable(5417): Permission: android.permission.ACCESS_FINE_LOCATION is already granted!
+12-12 13:15:12.469: W/ActivityTestRule(5417): getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+12-12 13:15:12.472: I/ActivityManager(2008): START u0 {act=android.intent.action.MAIN flg=0x14000000 cmp=com.freenow.android_demo/.activities.MainActivity} from uid 10103
+12-12 13:15:12.505: W/ActivityThread(5417): handleWindowVisibility: no activity for token android.os.BinderProxy@d61ea14
+12-12 13:15:12.528: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:12.547: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: PRE_ON_CREATE
+12-12 13:15:12.559: D/(2008): HostConnection::get() New Host Connection established 0xd6986180, tid 2078
+12-12 13:15:12.592: W/ow.android_dem(5417): Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+12-12 13:15:12.593: W/ow.android_dem(5417): Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+12-12 13:15:12.615: E/SurfaceFlinger(1823): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:12.626: I/OMXClient(5442): IOmx service obtained
+12-12 13:15:12.626: I/OMXMaster(1838): makeComponentInstance(OMX.google.h264.encoder) in omx@1.0-service process
+12-12 13:15:12.628: W/OMXUtils(5442): do not know color format 0x7f000789 = 2130708361
+12-12 13:15:12.628: I/ACodec(5442): setupAVCEncoderParameters with [profile: Baseline] [level: Level41]
+12-12 13:15:12.628: I/ACodec(5442): [OMX.google.h264.encoder] cannot encode color aspects. Ignoring.
+12-12 13:15:12.628: I/ACodec(5442): [OMX.google.h264.encoder] cannot encode HDR static metadata. Ignoring.
+12-12 13:15:12.628: I/ACodec(5442): setupVideoEncoder succeeded
+12-12 13:15:12.628: W/OMXUtils(5442): do not know color format 0x7f000789 = 2130708361
+12-12 13:15:12.628: E/OMXNodeInstance(1838): getConfig(0xe9526c00:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+12-12 13:15:12.628: E/OMXNodeInstance(1838): getConfig(0xe9526c00:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-12 13:15:12.632: D/GraphicBufferSource(1838): setting dataspace: 0x104, acquired=0
+12-12 13:15:12.632: D/GraphicBufferSource(1838): requesting color aspects (R:2(Limited), P:1(BT709_5), M:1(BT709_5), T:3(SMPTE170M))
+12-12 13:15:12.636: W/AshmemAllocator(1637): ashmem_create_region(12) returning hidl_memory(0xf459c180, 12)
+12-12 13:15:12.644: W/AshmemAllocator(1637): ashmem_create_region(12) returning hidl_memory(0xf459c180, 12)
+12-12 13:15:12.648: W/AshmemAllocator(1637): ashmem_create_region(3110400) returning hidl_memory(0xf459c180, 3110400)
+12-12 13:15:12.650: W/AshmemAllocator(1637): ashmem_create_region(3110400) returning hidl_memory(0xf459c180, 3110400)
+12-12 13:15:12.652: D/SoftAVCEnc(1838): Params width 1440 height 2880 level 50 colorFormat 0
+12-12 13:15:12.652: E/SoftAVCEnc(1838): Fill memory records failed = 0x192
+12-12 13:15:12.652: E/SoftAVCEnc(1838): Failed to initialize encoder
+12-12 13:15:12.653: D/SoftAVCEnc(1838): Params width 1440 height 2880 level 50 colorFormat 0
+12-12 13:15:12.653: E/SoftAVCEnc(1838): Fill memory records failed = 0x192
+12-12 13:15:12.653: E/SoftAVCEnc(1838): Failed to initialize encoder
+12-12 13:15:12.653: E/ACodec(5442): [OMX.google.h264.encoder] ERROR(0x80001001)
+12-12 13:15:12.653: E/ACodec(5442): signalError(omxError 0x80001001, internalError -2147483648)
+12-12 13:15:12.653: E/ACodec(5442): [OMX.google.h264.encoder] ERROR(0x80001001)
+12-12 13:15:12.653: E/MediaCodec(5442): Codec reported err 0x80001001, actionCode 0, while in state 6
+12-12 13:15:12.655: E/ACodec(5442): signalError(omxError 0x80001001, internalError -2147483648)
+12-12 13:15:12.655: E/ACodec(5442): [OMX.google.h264.encoder] ERROR(0x80001001)
+12-12 13:15:12.655: E/ACodec(5442): signalError(omxError 0x80001001, internalError -2147483648)
+12-12 13:15:12.655: E/ACodec(5442): [OMX.google.h264.encoder] ERROR(0x80001001)
+12-12 13:15:12.655: E/ACodec(5442): signalError(omxError 0x80001001, internalError -2147483648)
+12-12 13:15:12.659: E/MediaCodec(5442): Codec reported err 0x80001001, actionCode 0, while in state 0
+12-12 13:15:12.660: I/chatty(5442): uid=2000(shell) screenrecord_lo identical 1 line
+12-12 13:15:12.660: E/MediaCodec(5442): Codec reported err 0x80001001, actionCode 0, while in state 0
+12-12 13:15:12.650: W/Binder:1823_1(1823): type=1400 audit(0.0:120): avc: denied { call } for scontext=u:r:surfaceflinger:s0 tcontext=u:r:mediacodec:s0 tclass=binder permissive=0 b/77924251
+12-12 13:15:12.667: E/(1823): HpInterface: Wrong interface type.
+12-12 13:15:12.677: E/HWComposer(1823): getHdrCapabilities failed for display -1: Invalid display
+12-12 13:15:12.678: W/GraphicBufferSource(1838): released unpopulated slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+12-12 13:15:12.679: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:12.695: I/zzbz(5417): Making Creator dynamically
+12-12 13:15:12.700: D/(1838): HostConnection::get() New Host Connection established 0xe7e1d380, tid 8655
+12-12 13:15:12.706: W/ow.android_dem(5417): Unsupported class loader
+12-12 13:15:12.708: D/(5442): HostConnection::get() New Host Connection established 0xe73c7dc0, tid 5454
+12-12 13:15:12.711: I/DynamiteModule(5417): Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:221
+12-12 13:15:12.711: I/DynamiteModule(5417): Selected remote version of com.google.android.gms.maps_dynamite, version >= 221
+12-12 13:15:12.713: D/gralloc_ranchu(5442): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.716: D/(5442): HostConnection::get() New Host Connection established 0xe73c7dc0, tid 5454
+12-12 13:15:12.716: D/gralloc_ranchu(5442): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.721: E/HWComposer(1823): getSupportedPerFrameMetadata failed for display -1: Invalid display
+12-12 13:15:12.723: E/MediaMuxer(5442): stop() is called in invalid state 1
+12-12 13:15:12.724: D/EGL_emulation(1823): eglMakeCurrent: 0xeaf20a80: ver 3 0 (tinfo 0xeaf1c310)
+12-12 13:15:12.730: D/gralloc_ranchu(1838): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.735: D/ScreenRecord(5442): failed
+12-12 13:15:12.738: D/(1838): HostConnection::get() New Host Connection established 0xe7e1d380, tid 8655
+12-12 13:15:12.739: D/gralloc_ranchu(1838): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.739: E/BufferQueueProducer(1838): [GraphicBufferSource] queueBuffer: BufferQueue has been abandoned
+12-12 13:15:12.739: E/Surface(1823): queueBuffer: error queuing buffer to SurfaceTexture, -19
+12-12 13:15:12.739: E/BufferQueueProducer(1838): [GraphicBufferSource] dequeueBuffer: BufferQueue has been abandoned
+12-12 13:15:12.739: E/media.codec(1838): TWGraphicBufferProducer::dequeueBuffer - Invalid output fence
+12-12 13:15:12.751: E/EGL_emulation(1823): tid 1823: swapBuffers(552): error 0x300d (EGL_BAD_SURFACE)
+12-12 13:15:12.751: E/SurfaceFlinger(1823): eglSwapBuffers(0x1, 0xe2dc95c0) failed with 0x0000300d
+12-12 13:15:12.752: D/EGL_emulation(1823): eglMakeCurrent: 0xeaf20a80: ver 3 0 (tinfo 0xeaf1c310)
+12-12 13:15:12.767: D/EGL_emulation(1823): eglMakeCurrent: 0xeaf20a80: ver 3 0 (tinfo 0xeaf1c310)
+12-12 13:15:12.768: E/HWComposer(1823): getLayerReleaseFence failed for display -1: Invalid display
+12-12 13:15:12.768: I/chatty(1823): uid=1000(system) /system/bin/surfaceflinger identical 3 lines
+12-12 13:15:12.768: E/HWComposer(1823): getLayerReleaseFence failed for display -1: Invalid display
+12-12 13:15:12.769: D/EGL_emulation(1823): eglMakeCurrent: 0xeaf20a80: ver 3 0 (tinfo 0xeaf1c310)
+12-12 13:15:12.772: W/libEGL(1823): EGLNativeWindowType 0xe2e8b808 disconnect failed
+12-12 13:15:12.775: W/ow.android_dem(5417): Unsupported class loader
+12-12 13:15:12.777: W/ow.android_dem(5417): Skipping duplicate class check due to unsupported classloader
+12-12 13:15:12.813: I/Google Maps Android API(5417): Google Play services client version: 12451000
+12-12 13:15:12.816: I/Google Maps Android API(5417): Google Play services package version: 16089022
+12-12 13:15:12.884: W/ow.android_dem(5417): Accessing hidden field Ljava/nio/Buffer;->address:J (light greylist, reflection)
+12-12 13:15:12.930: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.930: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.931: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.932: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.932: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.932: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.933: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.934: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.934: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.934: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.935: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.935: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.935: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.936: D/(1866): HostConnection::get() New Host Connection established 0xf17bc280, tid 1866
+12-12 13:15:12.936: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.938: D/EGL_emulation(3353): eglMakeCurrent: 0xeb406260: ver 3 0 (tinfo 0xeb403d00)
+12-12 13:15:12.938: D/EGL_emulation(2213): eglMakeCurrent: 0xeb4059c0: ver 3 0 (tinfo 0xeb403a50)
+12-12 13:15:12.939: D/EGL_emulation(3385): eglMakeCurrent: 0xd8372c00: ver 3 0 (tinfo 0xd7d1d030)
+12-12 13:15:12.942: D/(1823): HostConnection::get() New Host Connection established 0xe2e8a300, tid 2106
+12-12 13:15:12.942: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.942: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.943: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:12.944: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.945: D/(1823): HostConnection::get() New Host Connection established 0xe2e8a300, tid 2106
+12-12 13:15:12.946: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:12.946: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.946: D/(1823): HostConnection::get() New Host Connection established 0xe2e8a300, tid 2106
+12-12 13:15:12.947: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.948: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:12.948: D/(1823): HostConnection::get() New Host Connection established 0xe2e8a300, tid 2106
+12-12 13:15:12.948: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.949: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:12.949: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.950: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:12.953: D/EGL_emulation(2213): eglMakeCurrent: 0xeb4059c0: ver 3 0 (tinfo 0xeb403a50)
+12-12 13:15:13.073: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6e760a1)
+12-12 13:15:13.073: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@6e760a1)
+12-12 13:15:13.074: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_LOCATION, 1, Location[gps 41.386878,2.170067 hAcc=20 et=?!? alt=5.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=???])
+12-12 13:15:13.075: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_LOCATION, 1, Location[gps 41.386878,2.170067 hAcc=20 et=+20h53m41s403ms alt=5.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=??? {Bundle[{satellites=0, maxCn0=0, meanCn0=0}]}])
+12-12 13:15:13.180: W/ow.android_dem(5417): Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+12-12 13:15:13.180: W/ow.android_dem(5417): Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+12-12 13:15:13.180: W/ow.android_dem(5417): Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+12-12 13:15:13.180: W/ow.android_dem(5417): Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+12-12 13:15:13.193: W/ow.android_dem(5417): Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+12-12 13:15:13.193: W/ow.android_dem(5417): Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+12-12 13:15:13.193: W/ow.android_dem(5417): Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+12-12 13:15:13.194: D/NetworkSecurityConfig(5417): No Network Security Config specified, using platform default
+12-12 13:15:13.216: D/Test(5417): Fetching drivers
+12-12 13:15:13.229: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: CREATED
+12-12 13:15:13.238: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: STARTED
+12-12 13:15:13.243: W/System.err(5417): java.net.ConnectException: Failed to connect to localhost/127.0.0.1:8080
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:270)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:176)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:236)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:109)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:77)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.Transmitter.newExchange$okhttp(Transmitter.kt:162)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:35)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:82)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:84)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:71)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:13.243: I/ActivityManager(2008): START u0 {cmp=com.freenow.android_demo/.activities.AuthenticationActivity} from uid 10103
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:13.243: W/System.err(5417): 	at net.rafaeltoledo.okir.OkHttp3IdlingResource.intercept(OkHttp3IdlingResource.java:39)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.kt:184)
+12-12 13:15:13.243: W/System.err(5417): 	at okhttp3.RealCall$AsyncCall.run(RealCall.kt:136)
+12-12 13:15:13.243: W/System.err(5417): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-12 13:15:13.244: W/System.err(5417): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-12 13:15:13.244: W/System.err(5417): 	at java.lang.Thread.run(Thread.java:764)
+12-12 13:15:13.244: W/System.err(5417): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 8080) from /127.0.0.1 (port 54954) after 10000ms: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 13:15:13.244: W/System.err(5417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:278)
+12-12 13:15:13.244: W/System.err(5417): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:187)
+12-12 13:15:13.244: W/System.err(5417): 	at libcore.io.IoBridge.connect(IoBridge.java:129)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:137)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+12-12 13:15:13.244: W/System.err(5417): 	at java.net.Socket.connect(Socket.java:621)
+12-12 13:15:13.244: W/System.err(5417): 	at okhttp3.internal.platform.AndroidPlatform.connectSocket(AndroidPlatform.kt:58)
+12-12 13:15:13.244: W/System.err(5417): 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:268)
+12-12 13:15:13.244: W/System.err(5417): 	... 24 more
+12-12 13:15:13.245: W/System.err(5417): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 13:15:13.245: W/System.err(5417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:267)
+12-12 13:15:13.245: W/System.err(5417): 	... 34 more
+12-12 13:15:13.263: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: RESUMED
+12-12 13:15:13.264: D/OpenGLRenderer(5417): Skia GL Pipeline
+12-12 13:15:13.272: E/SurfaceFlinger(1823): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:13.303: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: PAUSED
+12-12 13:15:13.363: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.364: D/(5417): HostConnection::get() New Host Connection established 0xeb45d300, tid 5487
+12-12 13:15:13.372: I/ConfigStore(5417): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+12-12 13:15:13.373: I/ConfigStore(5417): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+12-12 13:15:13.373: I/OpenGLRenderer(5417): Initialized EGL, version 1.4
+12-12 13:15:13.373: D/OpenGLRenderer(5417): Swap behavior 1
+12-12 13:15:13.373: W/OpenGLRenderer(5417): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-12 13:15:13.373: D/OpenGLRenderer(5417): Swap behavior 0
+12-12 13:15:13.388: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.388: D/EGL_emulation(5417): eglCreateContext: 0xeb4060e0: maj 3 min 0 rcv 3
+12-12 13:15:13.407: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:13.408: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.415: E/SurfaceFlinger(1823): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:13.430: E/Google Maps Android API(5417): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+12-12 13:15:13.432: E/Google Maps Android API(5417): In the Google Developer Console (https://console.developers.google.com)
+12-12 13:15:13.432: E/Google Maps Android API(5417): Ensure that the "Google Maps Android API v2" is enabled.
+12-12 13:15:13.432: E/Google Maps Android API(5417): Ensure that the following Android Key exists:
+12-12 13:15:13.432: E/Google Maps Android API(5417): 	API Key: YOUR_KEY_HERE
+12-12 13:15:13.432: E/Google Maps Android API(5417): 	Android Application (<cert_fingerprint>;<package_name>): 13:4F:1D:E7:E0:35:AB:D2:C4:2A:F3:B6:01:50:7C:4E:34:5F:5D:B1;com.freenow.android_demo
+12-12 13:15:13.444: W/ow.android_dem(5417): Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+12-12 13:15:13.492: W/ActivityThread(5417): handleWindowVisibility: no activity for token android.os.BinderProxy@1a963bb
+12-12 13:15:13.503: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@b53ff16 in: PRE_ON_CREATE
+12-12 13:15:13.582: I/TextInputLayout(5417): EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 13:15:13.596: I/TextInputLayout(5417): EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 13:15:13.603: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@b53ff16 in: CREATED
+12-12 13:15:13.607: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@b53ff16 in: STARTED
+12-12 13:15:13.608: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@b53ff16 in: RESUMED
+12-12 13:15:13.657: D/(5417): HostConnection::get() New Host Connection established 0xeb4aacc0, tid 5481
+12-12 13:15:13.660: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:13.662: D/EGL_emulation(5417): eglCreateContext: 0xe9c949c0: maj 1 min 0 rcv 1
+12-12 13:15:13.668: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 15138816
+12-12 13:15:13.701: D/EGL_emulation(5417): eglMakeCurrent: 0xe9c949c0: ver 1 0 (tinfo 0xeb4ab850)
+12-12 13:15:13.737: W/audio_hw_generic(1639): Not supplying enough data to HAL, expected position 12029971 , only wrote 11877120
+12-12 13:15:13.816: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.831: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.850: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 15138816
+12-12 13:15:13.850: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:13.926: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:13.945: I/ActivityManager(2008): Displayed com.freenow.android_demo/.activities.AuthenticationActivity: +640ms (total +1s440ms)
+12-12 13:15:13.961: I/GoogleInputMethod(3007): onFinishInput() : Dummy InputConnection bound
+12-12 13:15:13.965: I/AssistStructure(5417): Flattened final assist data: 2696 bytes, containing 1 windows, 9 views
+12-12 13:15:13.972: I/AssistStructure(2008): Flattened final assist data: 2496 bytes, containing 1 windows, 9 views
+12-12 13:15:13.978: D/AutofillUI(2008): destroySaveUiUiThread(): already destroyed
+12-12 13:15:13.981: D/(1823): HostConnection::get() New Host Connection established 0xe2db8400, tid 2106
+12-12 13:15:13.981: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:13.982: D/(1823): HostConnection::get() New Host Connection established 0xe2db8400, tid 2106
+12-12 13:15:13.982: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:13.983: D/(1823): HostConnection::get() New Host Connection established 0xe2db8400, tid 2106
+12-12 13:15:13.983: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:13.985: D/(1823): HostConnection::get() New Host Connection established 0xe2db8400, tid 2106
+12-12 13:15:13.986: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.021: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: STOPPED
+12-12 13:15:14.021: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:14.021: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:14.032: D/InputManagerEventInjectionStrategy(5417): Creating injection strategy with input manager.
+12-12 13:15:14.032: W/ow.android_dem(5417): Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+12-12 13:15:14.032: W/ow.android_dem(5417): Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+12-12 13:15:14.032: W/ow.android_dem(5417): Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+12-12 13:15:14.040: W/ow.android_dem(5417): Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (light greylist, reflection)
+12-12 13:15:14.040: W/ow.android_dem(5417): Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (light greylist, reflection)
+12-12 13:15:14.040: W/ow.android_dem(5417): Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (light greylist, reflection)
+12-12 13:15:14.043: W/SurfaceFlinger(1823): couldn't log to binary event log: overflow.
+12-12 13:15:14.044: W/SurfaceFlinger(1823): couldn't log to binary event log: overflow.
+12-12 13:15:14.067: W/ow.android_dem(5417): Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (light greylist, reflection)
+12-12 13:15:14.067: W/ow.android_dem(5417): Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (light greylist, reflection)
+12-12 13:15:14.067: W/ow.android_dem(5417): Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (light greylist, reflection)
+12-12 13:15:14.072: I/ViewInteraction(5417): Performing 'replace text' action on view with id: com.freenow.android_demo:id/edt_username
+12-12 13:15:14.078: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c7f74b2)
+12-12 13:15:14.078: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c7f74b2)
+12-12 13:15:14.078: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_LOCATION, 1, Location[gps 41.386878,2.170067 hAcc=20 et=?!? alt=5.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=???])
+12-12 13:15:14.082: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_LOCATION, 1, Location[gps 41.386878,2.170067 hAcc=20 et=+20h53m42s408ms alt=5.0 vel=0.0 bear=0.0 vAcc=??? sAcc=??? bAcc=??? {Bundle[{satellites=0, maxCn0=0, meanCn0=0}]}])
+12-12 13:15:14.089: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b7f1c03)
+12-12 13:15:14.090: I/GnssLocationProvider(2008): WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@b7f1c03)
+12-12 13:15:14.090: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@cfa0780)
+12-12 13:15:14.091: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@cfa0780)
+12-12 13:15:14.091: I/ViewInteraction(5417): Performing 'type text(crazydog335)' action on view with id: com.freenow.android_demo:id/edt_username
+12-12 13:15:14.100: W/ow.android_dem(5417): Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (light greylist, reflection)
+12-12 13:15:14.118: D/gralloc_ranchu(2008): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.120: D/(2008): HostConnection::get() New Host Connection established 0xd6986180, tid 2078
+12-12 13:15:14.121: D/gralloc_ranchu(2008): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.122: W/SurfaceFlinger(1823): Attempting to set client state on removed layer: Splash Screen com.freenow.android_demo#0
+12-12 13:15:14.122: W/SurfaceFlinger(1823): Attempting to destroy on removed layer: Splash Screen com.freenow.android_demo#0
+12-12 13:15:14.134: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.134: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.134: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.142: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.146: I/StreamRenderer(3353): cleanUpRendererScope(nowcards-1564662290275997431)
+12-12 13:15:14.153: I/LatinIme(3007): initialize() : Language = en-US
+12-12 13:15:14.153: I/Delight5Facilitator(3007): initializeForIme() : Locale = [en_US]
+12-12 13:15:14.153: I/Delight5Facilitator(3007): initializeForIme() : Locale == CurrentLocale
+12-12 13:15:14.154: I/EmojiSuperpacksFeature(3007): Emoji superpacks enabled
+12-12 13:15:14.154: I/LatinIme(3007): onActivate() : EditorInfo = Package = com.freenow.android_demo : Type = Text : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Show : Incognito = Disable
+12-12 13:15:14.154: W/SearchService(3353): Abort, client detached.
+12-12 13:15:14.155: I/StreamController(3353): cleanUpControllerScope(nowcards-1564662290275997431)
+12-12 13:15:14.155: I/PBSessionCacheImpl(3353): Deleted sessionId[153200482584] from persistence.
+12-12 13:15:14.177: I/InputContext(3007): input context reset success: true error: 0 input_state_id 1688
+12-12 13:15:14.181: I/PillNotificationLstnr(3007): maybeSetupPill()
+12-12 13:15:14.190: W/VoiceImeTranscriptor(3007): UIME feature enabled: true
+12-12 13:15:14.195: I/LatinMotionHandler(3007): consumeEvent() : GestureTypingEnabled = true
+12-12 13:15:14.196: I/EmojiDataExtension(3007): onActivate() : Locale = en_US
+12-12 13:15:14.196: I/EmojiSuperpacksFeature(3007): Emoji superpacks enabled
+12-12 13:15:14.196: I/FeatureCardGenerator(3007): Make a GIF card not added
+12-12 13:15:14.197: I/FeatureCardGenerator(3007): Autospace card not added
+12-12 13:15:14.197: I/FeatureCardNotice(3007): Feature card notice not shown: no cards to display
+12-12 13:15:14.197: I/GifEntryExtension(3007): onActivate()
+12-12 13:15:14.197: I/DevFeatureConfig(3007): Gif candidate disabled by Phenotype
+12-12 13:15:14.197: I/Conv2QueryExtension(3007): isEnabled() : true
+12-12 13:15:14.197: I/Conv2QueryExtension(3007): Current locale: en_US, config allows these locales: de,en,fr,it,es,pt
+12-12 13:15:14.197: W/Conv2QueryExtension(3007): Conv2Query not enabled due to current app [com.freenow.android_demo] not in whitelist
+12-12 13:15:14.197: W/Conv2QueryExtension(3007): onActivate() : Disabled by unsupported host app
+12-12 13:15:14.197: W/VoiceImeTranscriptor(3007): UIME feature enabled: true
+12-12 13:15:14.197: I/VoiceImeExtension(3007): Voice Extension onStartInputView() Mic status = [MicIconAvailable]
+12-12 13:15:14.198: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.search.nativecard.FeatureCardNoticeExtension.
+12-12 13:15:14.198: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.search.gif.GifEntryPointCandidateExtension.
+12-12 13:15:14.198: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.pill.PillExtension.
+12-12 13:15:14.209: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:14.234: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:14.235: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:14.254: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:14.267: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:14.289: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:14.295: I/FeaturePermissions(3007): onSharedPreferenceChanged() : Key = latest_activation_time : Feature = null
+12-12 13:15:14.306: D/EGL_emulation(3007): eglMakeCurrent: 0xe9c96b20: ver 3 0 (tinfo 0xd6fb0bc0)
+12-12 13:15:14.393: D/UiControllerImpl(5417): Injecting string: "crazydog335"
+12-12 13:15:14.718: I/ViewInteraction(5417): Performing 'close keyboard' action on view with id: com.freenow.android_demo:id/edt_username
+12-12 13:15:14.726: I/PhenotypeExpConfig(3007): refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 27 minutes : MaxAge = 720 minutes
+12-12 13:15:14.726: I/LatinIme(3007): abortComposing()
+12-12 13:15:14.728: I/Delight5Decoder(3007): abortComposing() : input state id = 1711
+12-12 13:15:14.729: I/LatinIme(3007): onDeactivate()
+12-12 13:15:14.737: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:14.738: D/EGL_emulation(3007): eglMakeCurrent: 0xe9c96b20: ver 3 0 (tinfo 0xd6fb0bc0)
+12-12 13:15:14.742: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:14.937: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.938: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.938: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.939: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.939: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.940: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.940: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.940: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.941: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.942: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:14.942: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:14.950: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:15.034: I/ViewInteraction(5417): Performing 'replace text' action on view with id: com.freenow.android_demo:id/edt_password
+12-12 13:15:15.051: I/ViewInteraction(5417): Performing 'type text(venture)' action on view with id: com.freenow.android_demo:id/edt_password
+12-12 13:15:15.081: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@e5e50b0)
+12-12 13:15:15.082: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@e5e50b0)
+12-12 13:15:15.098: W/DynamiteModule(5417): Local module descriptor class for com.google.android.gms.googlecertificates not found.
+12-12 13:15:15.109: I/DynamiteModule(5417): Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+12-12 13:15:15.109: I/DynamiteModule(5417): Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+12-12 13:15:15.115: W/ow.android_dem(5417): Unsupported class loader
+12-12 13:15:15.126: I/PillNotificationLstnr(3007): maybeSetupPill()
+12-12 13:15:15.126: I/DlamWrapper(3007): close(): Successfully wrote DLAM properties file.
+12-12 13:15:15.142: W/ow.android_dem(5417): Skipping duplicate class check due to unsupported classloader
+12-12 13:15:15.144: I/AssistStructure(5417): Flattened final assist data: 2736 bytes, containing 1 windows, 9 views
+12-12 13:15:15.161: I/AssistStructure(2008): Flattened final assist data: 2496 bytes, containing 1 windows, 9 views
+12-12 13:15:15.166: I/EmojiDataExtension(3007): onActivate() : Locale = en_US
+12-12 13:15:15.166: I/EmojiSuperpacksFeature(3007): Emoji superpacks enabled
+12-12 13:15:15.166: I/FeatureCardGenerator(3007): Make a GIF card not added
+12-12 13:15:15.167: I/FeatureCardGenerator(3007): Autospace card not added
+12-12 13:15:15.169: I/FeatureCardNotice(3007): Feature card notice not shown: no cards to display
+12-12 13:15:15.169: I/GifEntryExtension(3007): onActivate()
+12-12 13:15:15.169: I/DevFeatureConfig(3007): Gif candidate disabled by Phenotype
+12-12 13:15:15.169: I/Conv2QueryExtension(3007): isEnabled() : true
+12-12 13:15:15.169: I/Conv2QueryExtension(3007): Current locale: en_US, config allows these locales: de,en,fr,it,es,pt
+12-12 13:15:15.169: W/Conv2QueryExtension(3007): Conv2Query not enabled due to current app [com.freenow.android_demo] not in whitelist
+12-12 13:15:15.169: W/Conv2QueryExtension(3007): onActivate() : Disabled by unsupported host app
+12-12 13:15:15.169: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.search.nativecard.FeatureCardNoticeExtension.
+12-12 13:15:15.169: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.search.gif.GifEntryPointCandidateExtension.
+12-12 13:15:15.169: I/PrimesMetrics(3007): Ignore memory metric of com.google.android.apps.inputmethod.libs.pill.PillExtension.
+12-12 13:15:15.169: W/VoiceImeTranscriptor(3007): UIME feature enabled: true
+12-12 13:15:15.169: I/VoiceImeExtension(3007): Voice Extension onStartInputView() Mic status = [MicIconHidden-PasswordOrNumberOrDateInputType, ]
+12-12 13:15:15.176: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:15.187: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:15.196: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:15.218: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:15.238: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16105472
+12-12 13:15:15.279: I/FeaturePermissions(3007): onSharedPreferenceChanged() : Key = latest_activation_time : Feature = null
+12-12 13:15:15.301: D/EGL_emulation(3007): eglMakeCurrent: 0xe9c96b20: ver 3 0 (tinfo 0xd6fb0bc0)
+12-12 13:15:15.400: D/UiControllerImpl(5417): Injecting string: "venture"
+12-12 13:15:15.560: I/ViewInteraction(5417): Performing 'close keyboard' action on view with id: com.freenow.android_demo:id/edt_password
+12-12 13:15:15.566: I/PhenotypeExpConfig(3007): refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 27 minutes : MaxAge = 720 minutes
+12-12 13:15:15.578: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:15.579: D/EGL_emulation(3007): eglMakeCurrent: 0xe9c96b20: ver 3 0 (tinfo 0xd6fb0bc0)
+12-12 13:15:15.586: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 40960
+12-12 13:15:15.588: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.588: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:15.589: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.589: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:15.590: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.590: D/(1823): HostConnection::get() New Host Connection established 0xe2e6aa40, tid 2461
+12-12 13:15:15.590: D/gralloc_ranchu(1823): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.176: D/AutofillUI(2008): destroySaveUiUiThread(): already destroyed
+12-12 13:15:15.697: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.697: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.710: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.710: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.712: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.712: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.719: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.719: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.725: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.726: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.734: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+12-12 13:15:15.734: W/BroadcastQueue(2008): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-12 13:15:15.796: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.797: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:15.797: D/gralloc_ranchu(1866): gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+12-12 13:15:15.804: D/(1866): HostConnection::get() New Host Connection established 0xf17bc340, tid 1866
+12-12 13:15:15.875: I/ViewInteraction(5417): Performing 'single click' action on view with id: com.freenow.android_demo:id/btn_login
+12-12 13:15:15.920: D/Test(5417): Fetching user
+12-12 13:15:15.929: W/audio_hw_generic(1639): Not supplying enough data to HAL, expected position 11877459 , only wrote 11877120
+12-12 13:15:15.950: D/Test(5417): Got this path: /?seed=a1f30d446f820665
+12-12 13:15:15.950: D/Test(5417): Responded with User
+12-12 13:15:15.954: I/MockWebServer(5417): Received request: GET /?seed=a1f30d446f820665 HTTP/1.1 and responded: HTTP/1.1 200 OK
+12-12 13:15:15.975: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@b53ff16 in: PAUSED
+12-12 13:15:15.975: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:15.975: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:15.983: I/FRN(5417): Successful login with user: crazydog335
+12-12 13:15:16.022: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: RESTARTED
+12-12 13:15:16.023: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.025: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.027: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 15138816
+12-12 13:15:16.030: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: STARTED
+12-12 13:15:16.030: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.030: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.035: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: RESUMED
+12-12 13:15:16.035: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.035: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.071: D/EGL_emulation(5417): eglMakeCurrent: 0xe9c949c0: ver 1 0 (tinfo 0xeb4ab850)
+12-12 13:15:16.076: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 15138816
+12-12 13:15:16.087: I/GnssLocationProvider(2008): WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@708ef79)
+12-12 13:15:16.087: I/GnssLocationProvider(2008): WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@708ef79)
+12-12 13:15:16.126: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:16.172: D/(1823): HostConnection::get() New Host Connection established 0xe2db8d80, tid 2461
+12-12 13:15:16.174: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:16.207: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:16.240: I/EventLogSendingHelper(3353): Sending log events.
+12-12 13:15:16.267: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:16.309: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:16.318: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 15138816
+12-12 13:15:16.344: I/GoogleInputMethod(3007): onStartInput() : Dummy InputConnection bound
+12-12 13:15:16.365: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:16.374: I/chatty(5417): uid=10103(com.freenow.android_demo) RenderThread identical 1 line
+12-12 13:15:16.385: D/EGL_emulation(5417): eglMakeCurrent: 0xeb4060e0: ver 3 0 (tinfo 0xeb403bf0)
+12-12 13:15:16.468: I/ViewInteraction(5417): Checking 'MatchesViewAssertion{viewMatcher=is displayed on the screen to the user}' assertion on view with id: com.freenow.android_demo:id/textSearch
+12-12 13:15:16.494: W/ow.android_dem(5417): Accessing hidden field Landroid/app/Activity;->mResultCode:I (light greylist, reflection)
+12-12 13:15:16.494: W/ow.android_dem(5417): Accessing hidden field Landroid/app/Activity;->mResultData:Landroid/content/Intent; (light greylist, reflection)
+12-12 13:15:16.496: D/LifecycleMonitor(5417): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@e95803 in: PAUSED
+12-12 13:15:16.496: D/LifecycleMonitor(5417): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.496: D/LifecycleMonitor(5417): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@63911a0
+12-12 13:15:16.523: D/gralloc_ranchu(1649): gralloc_alloc: Creating ashmem region of size 16592896
+12-12 13:15:16.534: E/SchedPolicy(5417): set_timerslack_ns write failed: Operation not permitted

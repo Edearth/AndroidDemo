@@ -1,0 +1,527 @@
+12-12 13:15:38.560: I/TestRunner(20338): started: loginFlaky3(com.freenow.android_demo.tests.LoginTest)
+12-12 13:15:38.564: I/MonitoringInstr(20338): Activities that are still in CREATED to STOPPED: 0
+12-12 13:15:38.565: I/GrantPermissionCallable(20338): Permission: android.permission.ACCESS_FINE_LOCATION is already granted!
+12-12 13:15:38.582: W/ActivityTestRule(20338): getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+12-12 13:15:38.584: I/ActivityManager(2044): START u0 {act=android.intent.action.MAIN flg=0x14000000 cmp=com.freenow.android_demo/.activities.MainActivity} from uid 10095
+12-12 13:15:38.615: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:38.636: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:38.659: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: PRE_ON_CREATE
+12-12 13:15:38.667: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:38.703: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:38.711: E/ContentStoreEUAS(4101): Failed to commit the deferred actions
+12-12 13:15:38.721: D/EGL_emulation(3561): eglMakeCurrent: 0xa470ea60: ver 3 0 (tinfo 0xa21ff450)
+12-12 13:15:38.723: D/EGL_emulation(4101): eglMakeCurrent: 0xa4b05720: ver 3 0 (tinfo 0xa4b03570)
+12-12 13:15:38.724: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:38.848: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 15 lines
+12-12 13:15:38.850: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:38.888: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:38.954: I/zzbz(20338): Making Creator dynamically
+12-12 13:15:38.963: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:38.990: W/zygote(20338): Skipping duplicate class check due to unrecognized classloader
+12-12 13:15:38.997: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.006: I/DynamiteModule(20338): Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:221
+12-12 13:15:39.007: I/DynamiteModule(20338): Selected remote version of com.google.android.gms.maps_dynamite, version >= 221
+12-12 13:15:39.032: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.061: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 3 lines
+12-12 13:15:39.071: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.082: W/zygote(20338): Skipping duplicate class check due to unrecognized classloader
+12-12 13:15:39.090: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.099: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 4 lines
+12-12 13:15:39.115: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.116: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.136: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.147: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 1 line
+12-12 13:15:39.163: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.170: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.180: I/Google Maps Android API(20338): Google Play services client version: 12451000
+12-12 13:15:39.189: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.197: I/Google Maps Android API(20338): Google Play services package version: 16089022
+12-12 13:15:39.198: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.205: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 4 lines
+12-12 13:15:39.213: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.219: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.234: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.260: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 3 lines
+12-12 13:15:39.271: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.279: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.281: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.408: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 16 lines
+12-12 13:15:39.419: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.422: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.424: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.450: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.465: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 5 lines
+12-12 13:15:39.474: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.480: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.483: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.540: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 8 lines
+12-12 13:15:39.552: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.560: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.579: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.601: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 1 line
+12-12 13:15:39.614: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.624: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.624: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.728: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 14 lines
+12-12 13:15:39.730: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:39.853: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.893: I/chatty(1453): uid=1000(system) Binder:1453_3 identical 2 lines
+12-12 13:15:39.903: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.922: I/zygote(20338): Background concurrent copying GC freed 8097(1148KB) AllocSpace objects, 0(0B) LOS objects, 54% free, 1280KB/2MB, paused 29.998ms total 187.834ms
+12-12 13:15:39.948: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:39.980: I/OMXClient(20362): Treble IOmx obtained
+12-12 13:15:39.986: I/OMXMaster(19435): makeComponentInstance(OMX.google.h264.encoder) in omx@1.0-service process
+12-12 13:15:40.002: W/OMXUtils(20362): do not know color format 0x7f000789 = 2130708361
+12-12 13:15:40.004: I/ACodec(20362): setupAVCEncoderParameters with [profile: Baseline] [level: Level41]
+12-12 13:15:40.005: I/ACodec(20362): [OMX.google.h264.encoder] cannot encode color aspects. Ignoring.
+12-12 13:15:40.006: I/ACodec(20362): [OMX.google.h264.encoder] cannot encode HDR static metadata. Ignoring.
+12-12 13:15:40.006: I/ACodec(20362): setupVideoEncoder succeeded
+12-12 13:15:40.009: W/OMXUtils(20362): do not know color format 0x7f000789 = 2130708361
+12-12 13:15:40.009: E/OMXNodeInstance(19435): getConfig(0xb0e21b00:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+12-12 13:15:40.010: E/OMXNodeInstance(19435): getConfig(0xb0e21b00:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-12 13:15:40.013: D/GraphicBufferSource(19435): setting dataspace: 0x104, acquired=0
+12-12 13:15:40.014: D/GraphicBufferSource(19435): requesting color aspects (R:2(Limited), P:1(BT709_5), M:1(BT709_5), T:3(SMPTE170M))
+12-12 13:15:40.018: W//system/bin/hw/android.hidl.allocator@1.0-service(1430): ashmem_create_region(12) returning hidl_memory(0xb219b850, 12)
+12-12 13:15:40.025: W//system/bin/hw/android.hidl.allocator@1.0-service(1430): ashmem_create_region(12) returning hidl_memory(0xb219b850, 12)
+12-12 13:15:40.041: W//system/bin/hw/android.hidl.allocator@1.0-service(1430): ashmem_create_region(2764800) returning hidl_memory(0xb219b850, 2764800)
+12-12 13:15:40.044: W//system/bin/hw/android.hidl.allocator@1.0-service(1430): ashmem_create_region(2764800) returning hidl_memory(0xb219b850, 2764800)
+12-12 13:15:40.047: D/SoftAVCEnc(19435): Params width 1440 height 2560 level 50 colorFormat 0
+12-12 13:15:40.051: E/(1453): HpInterface: Wrong interface type.
+12-12 13:15:40.069: E/FrameEvents(1453): Source mDeltas not empty.
+12-12 13:15:40.069: E/FrameEvents(1453): Source mDeltas not empty.
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 0
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 1
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 2
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 3
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 4
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 5
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 6
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 7
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 8
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 9
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 10
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 11
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 12
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 13
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 14
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 15
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 16
+12-12 13:15:40.069: W/GraphicBufferSource(19435): releasing an unpopulated slot: 17
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 18
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 19
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 20
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 21
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 22
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 23
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 24
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 25
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 26
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 27
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 28
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 29
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 30
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 31
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 32
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 33
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 34
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 35
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 36
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 37
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 38
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 39
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 40
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 41
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 42
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 43
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 44
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 45
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 46
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 47
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 48
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 49
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 50
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 51
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 52
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 53
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 54
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 55
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 56
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 57
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 58
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 59
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 60
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 61
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 62
+12-12 13:15:40.070: W/GraphicBufferSource(19435): releasing an unpopulated slot: 63
+12-12 13:15:40.071: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:40.140: D/(20362): HostConnection::get() New Host Connection established 0xb1e48600, tid 20458
+12-12 13:15:40.151: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.161: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.164: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.179: I/zygote(3226): CollectorTransition concurrent copying GC freed 8751(854KB) AllocSpace objects, 0(0B) LOS objects, 38% free, 9MB/15MB, paused 182us total 884.694ms
+12-12 13:15:40.187: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.188: E/hw-IPCThreadState(1453): binder thread pool (1 threads) starved for 109 ms
+12-12 13:15:40.202: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.213: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.226: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.260: W/RemoteFillService(2044): Not handling { when=-2ms what=3 target=com.android.internal.os.HandlerCaller$MyHandler } as service for ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService} is already destroyed
+12-12 13:15:40.264: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.268: D/GraphicBufferSource(19435): got buffer with new dataSpace #104
+12-12 13:15:40.275: D/ACodec(20362): dataspace changed to 0x10c10000 (R:2(Limited), P:1(BT709_5), M:1(BT709_5), T:3(SMPTE170M)) (R:2(Limited), S:1(BT709), T:3(SMPTE_170M))
+12-12 13:15:40.279: I/MPEG4Writer(20362): limits: 4294967295/0 bytes/us, bit rate: -1 bps and the estimated moov size 3195 bytes
+12-12 13:15:40.280: D/(19435): HostConnection::get() New Host Connection established 0x97a78600, tid 20455
+12-12 13:15:40.283: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:40.311: D/(20362): HostConnection::get() New Host Connection established 0xb1e48940, tid 20453
+12-12 13:15:40.327: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.335: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 4 lines
+12-12 13:15:40.337: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.376: I/zygote(20338): Do partial code cache collection, code=30KB, data=23KB
+12-12 13:15:40.398: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.402: I/zygote(20338): After code cache collection, code=30KB, data=23KB
+12-12 13:15:40.402: I/zygote(20338): Increasing code cache capacity to 128KB
+12-12 13:15:40.408: I/zygote(20338): Rejecting re-init on previously-failed class java.lang.Class<okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/conscrypt/ConscryptHostnameVerifier;
+12-12 13:15:40.408: I/zygote(20338):   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 13:15:40.408: I/zygote(20338):   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 13:15:40.408: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 13:15:40.408: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 13:15:40.408: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 13:15:40.408: I/zygote(20338):   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 13:15:40.409: I/zygote(20338):   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 13:15:40.409: I/zygote(20338):   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 13:15:40.409: I/zygote(20338):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 13:15:40.409: I/zygote(20338):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 13:15:40.409: I/zygote(20338):   at void android.os.Looper.loop() (Looper.java:164)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 13:15:40.409: I/zygote(20338):   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 13:15:40.409: I/zygote(20338):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 13:15:40.409: I/zygote(20338): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.conscrypt.ConscryptHostnameVerifier" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.freenow.android_demo.test-sknCZ4HPqj1h8FQlWiYsJg==/base.apk", zip file "/data/app/com.freenow.android_demo-tlawTE6S8wQvT6mbXR7GeQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.freenow.android_demo.test-sknCZ4HPqj1h8FQlWiYsJg==/lib/x86, /data/app/com.freenow.android_demo-tlawTE6S8wQvT6mbXR7GeQ==/lib/x86, /system/lib, /vendor/lib]]
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 13:15:40.409: I/zygote(20338):   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 13:15:40.409: I/zygote(20338):   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 13:15:40.409: I/zygote(20338):   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 13:15:40.409: I/zygote(20338):   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 13:15:40.409: I/zygote(20338):   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 13:15:40.409: I/zygote(20338):   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 13:15:40.409: I/zygote(20338):   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 13:15:40.409: I/zygote(20338):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 13:15:40.409: I/zygote(20338):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 13:15:40.409: I/zygote(20338):   at void android.os.Looper.loop() (Looper.java:164)
+12-12 13:15:40.409: I/zygote(20338):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 13:15:40.409: I/zygote(20338):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 13:15:40.409: I/zygote(20338):   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 13:15:40.409: I/zygote(20338):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 13:15:40.410: I/zygote(20338): Rejecting re-init on previously-failed class java.lang.Class<okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1>: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/conscrypt/ConscryptHostnameVerifier;
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 13:15:40.410: I/zygote(20338):   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 13:15:40.410: I/zygote(20338):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 13:15:40.410: I/zygote(20338):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 13:15:40.410: I/zygote(20338):   at void android.os.Looper.loop() (Looper.java:164)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 13:15:40.410: I/zygote(20338):   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 13:15:40.410: I/zygote(20338):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 13:15:40.410: I/zygote(20338): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.conscrypt.ConscryptHostnameVerifier" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.freenow.android_demo.test-sknCZ4HPqj1h8FQlWiYsJg==/base.apk", zip file "/data/app/com.freenow.android_demo-tlawTE6S8wQvT6mbXR7GeQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.freenow.android_demo.test-sknCZ4HPqj1h8FQlWiYsJg==/lib/x86, /data/app/com.freenow.android_demo-tlawTE6S8wQvT6mbXR7GeQ==/lib/x86, /system/lib, /vendor/lib]]
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.android.SocketAdapter okhttp3.internal.platform.android.ConscryptSocketAdapter.buildIfSupported() (ConscryptSocketAdapter.kt:64)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.internal.platform.AndroidPlatform.<init>() (AndroidPlatform.kt:45)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.AndroidPlatform$Companion.buildIfSupported() (AndroidPlatform.kt:239)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.findPlatform() (Platform.kt:211)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.internal.platform.Platform okhttp3.internal.platform.Platform$Companion.access$findPlatform(okhttp3.internal.platform.Platform$Companion) (Platform.kt:179)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.internal.platform.Platform.<clinit>() (Platform.kt:180)
+12-12 13:15:40.410: I/zygote(20338):   at void okhttp3.OkHttpClient.<init>(okhttp3.OkHttpClient$Builder) (OkHttpClient.kt:219)
+12-12 13:15:40.410: I/zygote(20338):   at okhttp3.OkHttpClient okhttp3.OkHttpClient$Builder.build() (OkHttpClient.kt:955)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.utils.network.HttpClient.<init>() (HttpClient.java:45)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule.provideHttpClient() (NetworkModule.java:16)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.utils.network.HttpClient com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:18)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object com.freenow.android_demo.dependencies.module.NetworkModule_ProvideHttpClientFactory.get() (NetworkModule_ProvideHttpClientFactory.java:8)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object dagger.internal.DoubleCheck.get() (DoubleCheck.java:47)
+12-12 13:15:40.410: I/zygote(20338):   at com.freenow.android_demo.activities.MainActivity com.freenow.android_demo.dependencies.component.DaggerAppComponent.injectMainActivity(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:75)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.dependencies.component.DaggerAppComponent.inject(com.freenow.android_demo.activities.MainActivity) (DaggerAppComponent.java:54)
+12-12 13:15:40.410: I/zygote(20338):   at void com.freenow.android_demo.activities.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:91)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+12-12 13:15:40.410: I/zygote(20338):   at void android.support.test.runner.MonitoringInstrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (MonitoringInstrumentation.java:667)
+12-12 13:15:40.410: I/zygote(20338):   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+12-12 13:15:40.410: I/zygote(20338):   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+12-12 13:15:40.410: I/zygote(20338):   at void android.os.Looper.loop() (Looper.java:164)
+12-12 13:15:40.410: I/zygote(20338):   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+12-12 13:15:40.410: I/zygote(20338):   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+12-12 13:15:40.410: I/zygote(20338):   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+12-12 13:15:40.410: I/zygote(20338):   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+12-12 13:15:40.420: D/NetworkSecurityConfig(20338): No Network Security Config specified, using platform default
+12-12 13:15:40.437: D/Test(20338): Fetching drivers
+12-12 13:15:40.454: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: CREATED
+12-12 13:15:40.455: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.464: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: STARTED
+12-12 13:15:40.469: I/ActivityManager(2044): START u0 {cmp=com.freenow.android_demo/.activities.AuthenticationActivity} from uid 10095
+12-12 13:15:40.497: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: RESUMED
+12-12 13:15:40.504: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.532: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.541: D/OpenGLRenderer(20338): HWUI GL Pipeline
+12-12 13:15:40.565: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: PAUSED
+12-12 13:15:40.587: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.601: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.626: W/System.err(20338): java.net.ConnectException: Failed to connect to localhost/127.0.0.1:8080
+12-12 13:15:40.642: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.655: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.681: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.684: E/Google Maps Android API(20338): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+12-12 13:15:40.690: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.693: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.710: E/Google Maps Android API(20338): In the Google Developer Console (https://console.developers.google.com)
+12-12 13:15:40.710: E/Google Maps Android API(20338): Ensure that the "Google Maps Android API v2" is enabled.
+12-12 13:15:40.710: E/Google Maps Android API(20338): Ensure that the following Android Key exists:
+12-12 13:15:40.710: E/Google Maps Android API(20338): 	API Key: YOUR_KEY_HERE
+12-12 13:15:40.710: E/Google Maps Android API(20338): 	Android Application (<cert_fingerprint>;<package_name>): 13:4F:1D:E7:E0:35:AB:D2:C4:2A:F3:B6:01:50:7C:4E:34:5F:5D:B1;com.freenow.android_demo
+12-12 13:15:40.711: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:270)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:176)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:236)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:109)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:77)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.Transmitter.newExchange$okhttp(Transmitter.kt:162)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:35)
+12-12 13:15:40.712: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:40.713: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:40.713: W/System.err(20338): 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:82)
+12-12 13:15:40.713: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:40.713: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:40.720: W/System.err(20338): 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:84)
+12-12 13:15:40.720: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:40.720: W/System.err(20338): 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:71)
+12-12 13:15:40.720: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:40.720: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:40.721: W/System.err(20338): 	at net.rafaeltoledo.okir.OkHttp3IdlingResource.intercept(OkHttp3IdlingResource.java:39)
+12-12 13:15:40.721: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:112)
+12-12 13:15:40.721: W/System.err(20338): 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:87)
+12-12 13:15:40.721: W/System.err(20338): 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.kt:184)
+12-12 13:15:40.721: W/System.err(20338): 	at okhttp3.RealCall$AsyncCall.run(RealCall.kt:136)
+12-12 13:15:40.721: W/System.err(20338): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-12 13:15:40.722: W/System.err(20338): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-12 13:15:40.722: W/System.err(20338): 	at java.lang.Thread.run(Thread.java:764)
+12-12 13:15:40.724: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:40.725: W/System.err(20338): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 8080) from /127.0.0.1 (port 49806) after 10000ms: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 13:15:40.725: W/System.err(20338): 	at libcore.io.IoBridge.isConnected(IoBridge.java:273)
+12-12 13:15:40.725: W/System.err(20338): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:188)
+12-12 13:15:40.725: W/System.err(20338): 	at libcore.io.IoBridge.connect(IoBridge.java:130)
+12-12 13:15:40.725: W/System.err(20338): 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+12-12 13:15:40.725: W/System.err(20338): 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+12-12 13:15:40.725: W/System.err(20338): 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+12-12 13:15:40.726: W/System.err(20338): 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+12-12 13:15:40.726: W/System.err(20338): 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+12-12 13:15:40.726: W/System.err(20338): 	at java.net.Socket.connect(Socket.java:616)
+12-12 13:15:40.726: W/System.err(20338): 	at okhttp3.internal.platform.AndroidPlatform.connectSocket(AndroidPlatform.kt:58)
+12-12 13:15:40.726: W/System.err(20338): 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:268)
+12-12 13:15:40.726: W/System.err(20338): 	... 24 more
+12-12 13:15:40.733: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:40.771: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@443e363 in: PRE_ON_CREATE
+12-12 13:15:40.775: W/System.err(20338): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+12-12 13:15:40.775: W/System.err(20338): 	at libcore.io.IoBridge.isConnected(IoBridge.java:262)
+12-12 13:15:40.775: W/System.err(20338): 	... 34 more
+12-12 13:15:40.816: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.833: I/TextInputLayout(20338): EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 13:15:40.845: I/TextInputLayout(20338): EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-12 13:15:40.852: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@443e363 in: CREATED
+12-12 13:15:40.852: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@443e363 in: STARTED
+12-12 13:15:40.857: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.AuthenticationActivity@443e363 in: RESUMED
+12-12 13:15:40.953: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.956: I/chatty(1453): uid=1000(system) Binder:1453_5 identical 1 line
+12-12 13:15:40.978: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:40.993: I/zygote(20338): Background concurrent copying GC freed 8472(1358KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2MB/4MB, paused 1.593ms total 553.482ms
+12-12 13:15:41.033: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.097: I/zygote(20338): Do partial code cache collection, code=51KB, data=52KB
+12-12 13:15:41.098: I/zygote(20338): After code cache collection, code=51KB, data=52KB
+12-12 13:15:41.098: I/zygote(20338): Increasing code cache capacity to 256KB
+12-12 13:15:41.100: I/zygote(20338): JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-12 13:15:41.100: I/zygote(20338): Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-12 13:15:41.112: I/zygote(20338): Do full code cache collection, code=124KB, data=71KB
+12-12 13:15:41.112: I/zygote(20338): After code cache collection, code=72KB, data=26KB
+12-12 13:15:41.165: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.166: I/MPEG4Writer(20362): setStartTimestampUs: 75251298120
+12-12 13:15:41.166: I/MPEG4Writer(20362): Earliest track starting time: 75251298120
+12-12 13:15:41.168: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.183: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 6 lines
+12-12 13:15:41.190: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.209: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.214: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.302: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 9 lines
+12-12 13:15:41.304: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.312: D/(20338): HostConnection::get() New Host Connection established 0x91aa28c0, tid 20491
+12-12 13:15:41.313: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:41.315: I/OpenGLRenderer(20338): Initialized EGL, version 1.4
+12-12 13:15:41.315: D/OpenGLRenderer(20338): Swap behavior 1
+12-12 13:15:41.316: W/OpenGLRenderer(20338): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-12 13:15:41.316: D/OpenGLRenderer(20338): Swap behavior 0
+12-12 13:15:41.333: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.335: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:41.335: D/EGL_emulation(20338): eglCreateContext: 0xa2ca7fc0: maj 3 min 0 rcv 3
+12-12 13:15:41.355: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:41.389: D/EGL_emulation(20338): eglMakeCurrent: 0xa2ca7fc0: ver 3 0 (tinfo 0xa21ffdc0)
+12-12 13:15:41.392: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.396: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.402: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.573: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 14 lines
+12-12 13:15:41.593: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:41.600: D/gralloc_ranchu(1440): gralloc_alloc: Creating ashmem region of size 14749696
+12-12 13:15:41.666: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.706: I/chatty(1453): uid=1000(system) Binder:1453_3 identical 1 line
+12-12 13:15:41.732: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.749: W/GCoreFlp(2810): No location to return for getLastLocation()
+12-12 13:15:41.810: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:41.934: D/(19435): HostConnection::get() New Host Connection established 0xab1c6c00, tid 20456
+12-12 13:15:42.006: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:42.154: I/chatty(1453): uid=1000(system) Binder:1453_3 identical 3 lines
+12-12 13:15:42.183: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:42.187: I/Choreographer(20338): Skipped 77 frames!  The application may be doing too much work on its main thread.
+12-12 13:15:42.200: D/EGL_emulation(20338): eglMakeCurrent: 0xa2ca7fc0: ver 3 0 (tinfo 0xa21ffdc0)
+12-12 13:15:42.264: W/DynamiteModule(20338): Local module descriptor class for com.google.android.gms.googlecertificates not found.
+12-12 13:15:42.276: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:42.283: I/DynamiteModule(20338): Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+12-12 13:15:42.283: I/DynamiteModule(20338): Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+12-12 13:15:42.316: W/zygote(20338): Skipping duplicate class check due to unrecognized classloader
+12-12 13:15:42.337: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.338: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:42.339: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.339: E/SurfaceFlinger(1453): ro.sf.lcd_density must be defined as a build property
+12-12 13:15:42.344: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.358: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 2 lines
+12-12 13:15:42.361: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.390: I/ActivityManager(2044): Displayed com.freenow.android_demo/.activities.AuthenticationActivity: +1s821ms (total +3s791ms)
+12-12 13:15:42.392: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.399: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 1 line
+12-12 13:15:42.420: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.428: E/memtrack(2044): Couldn't load memtrack module
+12-12 13:15:42.428: W/android.os.Debug(2044): failed to get memory consumption info: -1
+12-12 13:15:42.433: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.435: W/View(20338): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-12 13:15:42.435: W/Binder(2044): Outgoing transactions from this process must be FLAG_ONEWAY
+12-12 13:15:42.435: W/Binder(2044): java.lang.Throwable
+12-12 13:15:42.435: W/Binder(2044): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-12 13:15:42.435: W/Binder(2044): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-12 13:15:42.435: W/Binder(2044): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-12 13:15:42.435: W/Binder(2044): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2106)
+12-12 13:15:42.435: W/Binder(2044): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-12 13:15:42.435: W/Binder(2044): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13139)
+12-12 13:15:42.435: W/Binder(2044): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-12 13:15:42.435: W/Binder(2044): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-12 13:15:42.435: W/Binder(2044): 	at android.os.Binder.execTransact(Binder.java:674)
+12-12 13:15:42.437: I/AssistStructure(20338): Flattened final assist data: 2428 bytes, containing 1 windows, 9 views
+12-12 13:15:42.440: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.458: I/AssistStructure(2044): Flattened final assist data: 2228 bytes, containing 1 windows, 9 views
+12-12 13:15:42.459: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.480: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.480: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: STOPPED
+12-12 13:15:42.480: D/LifecycleMonitor(20338): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@fd04e0
+12-12 13:15:42.480: D/LifecycleMonitor(20338): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@fd04e0
+12-12 13:15:42.481: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.493: I/ActivityManager(2044): Activity reported stop, but no longer stopping: ActivityRecord{aaec66b u0 com.freenow.android_demo/.activities.MainActivity t90 f}
+12-12 13:15:42.489: I/chatty(1453): uid=1000(system) /system/bin/surfaceflinger identical 4 lines
+12-12 13:15:42.493: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.493: D/LifecycleMonitor(20338): Lifecycle status change: com.freenow.android_demo.activities.MainActivity@2a6dcfa in: DESTROYED
+12-12 13:15:42.494: D/LifecycleMonitor(20338): running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@fd04e0
+12-12 13:15:42.494: D/LifecycleMonitor(20338): callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@fd04e0
+12-12 13:15:42.503: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.510: I/TestRunner(20338): failed: loginFlaky3(com.freenow.android_demo.tests.LoginTest)
+12-12 13:15:42.510: I/TestRunner(20338): ----- begin exception -----
+12-12 13:15:42.512: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.518: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.519: I/TestRunner(20338): java.lang.AssertionError: expected:<1> but was:<0>
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.Assert.fail(Assert.java:88)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.Assert.failNotEquals(Assert.java:834)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.Assert.assertEquals(Assert.java:118)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.Assert.assertEquals(Assert.java:144)
+12-12 13:15:42.519: I/TestRunner(20338): 	at com.freenow.android_demo.tests.LoginTest.loginFlaky3(LoginTest.kt:72)
+12-12 13:15:42.519: I/TestRunner(20338): 	at java.lang.reflect.Method.invoke(Native Method)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:527)
+12-12 13:15:42.519: I/TestRunner(20338): 	at com.freenow.android_demo.utils.ClearPreferencesRule$apply$1.evaluate(ClearPreferencesRule.kt:41)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:129)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:101)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.Suite.runChild(Suite.java:128)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.Suite.runChild(Suite.java:27)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+12-12 13:15:42.519: I/TestRunner(20338): 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:384)
+12-12 13:15:42.519: I/TestRunner(20338): 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2074)
+12-12 13:15:42.519: I/TestRunner(20338): ----- end exception -----
+12-12 13:15:42.524: D/EGL_emulation(1453): eglMakeCurrent: 0xa9a20900: ver 3 0 (tinfo 0xa9a1b9e0)
+12-12 13:15:42.529: I/TestRunner(20338): finished: loginFlaky3(com.freenow.android_demo.tests.LoginTest)
