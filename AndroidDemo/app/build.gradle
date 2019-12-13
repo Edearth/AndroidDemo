@@ -59,6 +59,6 @@ dependencies {
 gordon {
     poolingStrategy.set(com.banno.gordon.PoolingStrategy.AllDevices.INSTANCE)
     retryQuota.set(2)
-    //testTimeoutMillis.set(1_000L)
+    testTimeoutMillis.set(60_000L)
     //testFilter.set("ExampleTest.runThisMethod,RunThisWholeTestClass,com.example.runthispackage")
 }
