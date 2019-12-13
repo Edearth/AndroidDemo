@@ -41,6 +41,8 @@ captures/
 .idea/libraries
 .idea/caches/
 .idea/codeStyles/
+.idea/sonarlint/
+.idea/modules.xml
 
 # User-specific configurations
 .idea/libraries/
