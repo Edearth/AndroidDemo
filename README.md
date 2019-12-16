@@ -45,11 +45,15 @@ And here's another table comparing the report size in MB.
 | ------ | ------ | ------ | ------ | -------- |
 | no report | 2.9 MB | 8 MB | 0.03 MB | 1.3 MB |
 
+-----
+
 ### JUnit
 
 The tests were executed in a single device in Junit, without counting installation time. These tests did not generate an HTML report, did not retry failing tests and they didn't handle any state clean up after execution (even though SharedPreferences were cleaned manually after each test).
 
 The purpose of these tests was to get a baseline to start making comparisons between test runners. We got an execution time of just over **20 seconds**.
+
+-----
 
 ### Spoon
 
@@ -81,6 +85,8 @@ Testing with different configurations, we found that enabling "singleInstrumenta
 * Contains logs + stacktrace
 * Difficult to navigate when there are a lot of test cases
 
+-----
+
 ### Fork
 
 This one was a bit of a let down. Personally I was expecting something great from it, but it was slow, heavy and caused some issues with ADB / Android Studio.
@@ -111,6 +117,8 @@ This one was the slowest to execute. Without any retrying policy and using 2 emu
 * 8 MB report. The biggest by far.
 * It includes images, gifs and a video recording of the execution (even though I was unable to view it from the browser).
 * It includes colored log and stacktrace in the html report.
+
+-----
 
 ### Gordon
 
@@ -146,6 +154,8 @@ This could be a good replacement, emphasizing fast execution, lightweight report
 * Differentiates between failed / flaky tests.
 * It includes stacktrace for failed / flaky tests.
 * It doesn't include info for passed tests.
+
+-----
 
 ### Marathon
 
