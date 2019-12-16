@@ -13,7 +13,7 @@ I don't claim it's perfect, though. Just a starting point on those topics.
 
 The original app was taken from [Free Now's code challenge for Android QAs](https://github.com/freenowtech/MobileAppAutomationTest).
 
-# What and how we tested
+# What we tested and how
 
 5 test runners were tested:
 * **Spoon**, the one we're using right now.
