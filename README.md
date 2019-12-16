@@ -43,7 +43,7 @@ And here's another table comparing the report size in MB.
 
 | JUnit  | Spoon  | Fork   | Gordon | Marathon |
 | ------ | ------ | ------ | ------ | -------- |
-| no report | 2.9 MB | 8 MB | 0.028 MB | 1.3 MB |
+| no report | 2.9 MB | 8 MB | 0.03 MB | 1.3 MB |
 
 ### JUnit
 
