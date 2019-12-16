@@ -53,6 +53,8 @@ The purpose of these tests was to get a baseline to start making comparisons bet
 
 ### Spoon
 
+This is the one we're using right now.
+
 ##### Pros
 
 * Currently in use -> There is no development cost, since it's already implemented.
@@ -112,6 +114,8 @@ This one was the slowest to execute. Without any retrying policy and using 2 emu
 
 ### Gordon
 
+This could be a good replacement, emphasizing fast execution, lightweight report and ease of use.
+
 ##### Pros
 
 * Allows parallel execution.
@@ -146,6 +150,8 @@ This one was the slowest to execute. Without any retrying policy and using 2 emu
 ### Marathon
 
 This is the replacement for Composer, the one that is being used in Passenger. Apparently it supports both Android and iOS execution, so it could be interesting if we decide to align with iOS on this.
+
+This could be the best possible replacement if we managed to use multiple emulators with it.
 
 ##### Pros
 
