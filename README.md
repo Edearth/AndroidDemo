@@ -31,6 +31,14 @@ Different configurations were used for each runner, since all of them offer diff
 
 # Conclusions
 
+### Execution time comparison
+
+Getting the lowest execution time from all different test runners, here is a table to compare them:
+
+| JUnit  | Spoon  | Fork   | Gordon | Marathon |
+| ------ | ------ | ------ | ------ | -------- |
+| 20 sec | 30 sec | 50 sec | 24 sec | 32 sec   |
+
 ### JUnit
 
 The tests were executed in a single device in Junit, without counting installation time. These tests did not generate an HTML report, did not retry failing tests and they didn't handle any state clean up after execution (even though SharedPreferences were cleaned manually after each test).
@@ -161,12 +169,4 @@ These tests were done with 1 emulated device and 1 real device, since we can't u
 * Half the size of the Spoon report (1.3 MB).
 * Colored logs + stacktrace.
 * Gif with the last seconds before a crash.
-
-### Execution time comparison
-
-Getting the lowest execution time from all different test runners, here is a table to compare them:
-
-| JUnit  | Spoon  | Fork   | Gordon | Marathon |
-| ------ | ------ | ------ | ------ | -------- |
-| 20 sec | 30 sec | 50 sec | 24 sec | 32 sec   |
 
