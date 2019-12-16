@@ -162,3 +162,11 @@ These tests were done with 1 emulated device and 1 real device, since we can't u
 * Colored logs + stacktrace.
 * Gif with the last seconds before a crash.
 
+### Execution time comparison
+
+Getting the lowest execution time from all different test runners, here is a table to compare them:
+
+| JUnit  | Spoon  | Fork   | Gordon | Marathon |
+| ------ | ------ | ------ | ------ | -------- |
+| 20 sec | 30 sec | 50 sec | 24 sec | 32 sec   |
+
