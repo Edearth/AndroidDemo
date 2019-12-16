@@ -31,13 +31,19 @@ Different configurations were used for each runner, since all of them offer diff
 
 # Conclusions
 
-### Execution time comparison
+### Quick comparison
 
 Getting the lowest execution time from all different test runners, here is a table to compare them:
 
 | JUnit  | Spoon  | Fork   | Gordon | Marathon |
 | ------ | ------ | ------ | ------ | -------- |
 | 20 sec | 30 sec | 50 sec | 24 sec | 32 sec   |
+
+And here's another table comparing the report size in MB.
+
+| JUnit  | Spoon  | Fork   | Gordon | Marathon |
+| ------ | ------ | ------ | ------ | -------- |
+| no report | 2.9 MB | 8 MB | 0.028 MB | 1.3 MB |
 
 ### JUnit
 
