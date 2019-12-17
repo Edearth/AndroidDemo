@@ -19,7 +19,7 @@ The original app was taken from [Free Now's code challenge for Android QAs](http
 * **Spoon**, the one we're using right now.
 * **Fork**, a Spoon extension.
 * **Gordon**, a replacement for Spoon and Fork.
-* **Marathon**, the replacement for **Composer** (the one used at passenger).
+* **Marathon**, the replacement for **Composer** (the one used at passenger, which has been archived and their developers recommend Marathon as a replacement).
 * **JUnit**, as a base ground / control group.
 
 To test them, we implemented 10 very simple test cases and we ran all of them with each test runner. The test cases were:
@@ -159,7 +159,7 @@ This could be a good replacement, emphasizing fast execution, lightweight report
 
 ### Marathon
 
-This is the replacement for Composer, the one that is being used in Passenger. Apparently it supports both Android and iOS execution, so it could be interesting if we decide to align with iOS on this.
+This is the replacement for Composer, the one that is being used in Passenger. Their developers decided to discontinue the project and has since been archived. On their repo there's a message explaining that and recommending Marathon as an alternative ("Archived. Marathon is recommended as an alternative"). Apparently it supports both Android and iOS execution, so it could be interesting if we decide to align with iOS on this.
 
 This could be the best possible replacement if we managed to use multiple emulators with it.
 
