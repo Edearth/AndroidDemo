@@ -159,7 +159,7 @@ This could be a good replacement, emphasizing fast execution, lightweight report
 
 ### Marathon
 
-This is the replacement for Composer, the one that is being used in Passenger. Their developers decided to discontinue the project and has since been archived. On their repo there's a message explaining that and recommending Marathon as an alternative ("Archived. Marathon is recommended as an alternative"). Apparently it supports both Android and iOS execution, so it could be interesting if we decide to align with iOS on this.
+This is the replacement for Composer, the runner that is being used in Passenger. Their developers decided to discontinue the project and it has since been archived. On their repo there's a message explaining that and recommending Marathon as an alternative ("Archived. Marathon is recommended as an alternative"). Apparently it supports both Android and iOS execution, so it could be interesting if we decide to align with iOS on this.
 
 This could be the best possible replacement if we managed to use multiple emulators with it.
 
