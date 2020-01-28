@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'devicefarm' //aws device farm
 
 android {
     compileSdkVersion 27
@@ -54,3 +55,12 @@ dependencies {
     androidTestImplementation 'com.squareup.okhttp:mockwebserver:1.2.1'
 
 }
+
+devicefarm {
+    projectName "espresso-adf-test"
+    authentication {
+        accessKey "test"
+        secretKey "test"
+    }
+}
+
