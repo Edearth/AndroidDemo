@@ -5,10 +5,18 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.60"
+
+        classpath "firebase.test.lab:plugin:2.6.0"
+        // You also need to enable toolresults.googleapis.com API
+        // You can try the following link, but it might change in the future:
+        // https://console.cloud.google.com/apis/api/toolresults.googleapis.com/overview?project=your-project-id
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
