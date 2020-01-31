@@ -61,9 +61,9 @@ firebaseTestLab {
     googleProjectId = "fir-device-farm-test"
     devices {
         nexusEmulator {
-            deviceIds = ["hammerhead", "hammerhead"]
+            deviceIds = ["hammerhead"]
             androidApiLevels = [23]
-            numShards = 4
+            numShards = 4 // I understood shards wrong. It's better to have between 2-10 tests per shard
         }
     }
 }
